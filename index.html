@@ -6,6 +6,12 @@
   <title>Drum Kit</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <!-- 
+    the 'defer' keyword used in the script tag above is used to make the js file which is attached to this html page to load at the same time 
+    as the whole html page instead of following the normal line-by-line pattern and placing the js file at the bottom of this html file. 
+    It's faster than placing the script any other place in this file or using 'async' keyword the way 'defer' keyword is used here.
+  -->
+  <script src="index.js" type="text/javascript" defer></script>
 </head>
 
 <body>
@@ -21,12 +27,11 @@
     <button class="l drum">l</button>
   </div>
 
-
+  
   <footer>
     Made with ❤️ in Nigeria.
   </footer>
 
-  <script src="index.js"></script>
 </body>
 
 </html>
